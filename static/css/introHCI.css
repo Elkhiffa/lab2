@@ -12,8 +12,14 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     background: linear-gradient(-45deg, #6FD4FF, #FFD28E);
      border: 1px dotted gray;
      padding: 20px;
+     font-family: Arial, sans-serif;
+}
+
+.project .container p h4 .img{
+     background: rgba(255,255,255,0);
 }
 
 .jumbotron {
@@ -24,7 +30,7 @@ body {
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     opacity: 0.4;
      top: 0;
      left: 0;
      bottom: 0;
@@ -32,3 +38,4 @@ body {
      position: absolute;
      z-index: -1;	
 }
+
