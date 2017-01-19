@@ -19,7 +19,8 @@ function initializePage() {
 }
 
 function projectClick(e){
-	//prevent the page from reloading      
+	//prevent the page from reloading  
+	console.log("Project clicked");    
     e.preventDefault();
     // In an event handler, $(this) refers to      
     // the object that triggered the event      
